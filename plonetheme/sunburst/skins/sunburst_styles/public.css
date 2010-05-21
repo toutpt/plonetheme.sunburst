@@ -299,6 +299,14 @@ a.link-anchor {
 	border-bottom: 1px dotted #205c90 !important;
 }
 
+dl dt .documentByLine {
+	font-weight: normal;
+}
+
+dl dt span.summary a {
+    border: none !important;
+}
+
 /* @end */
 
 /* @group Portlets */
@@ -452,7 +460,7 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 dl.portlet p,
 dl.portlet {
     margin-top: 0.625em;
-	margin-bottom: 1em;
+	margin-bottom: 0.625em;
 }
 
 #content ul,
@@ -534,7 +542,7 @@ dl.portlet li {
 	margin-right: 0;
 }
 #content dd {
-	margin: 0 0 0.625em 1em;
+	margin: 0 0 0.625em 1.64em;
 }
 
 #content pre {
