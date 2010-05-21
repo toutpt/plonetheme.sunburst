@@ -642,15 +642,18 @@ dl.portlet li {
 
 /* @group Data tables */
 
-table.listing {
-	border-spacing: 0; 
+table.listing,
+table.plain {
+	border-spacing: 0;
+	border-collapse: collapse; 
 }
 
+table.plain td, 
+table.plain th,
 table.listing td, 
 table.listing th {
 	padding: 0.5em 1em;
 	vertical-align: top;
-	line-height: 2em;
 }
 
 table.listing td.listingCheckbox, 
