@@ -439,6 +439,11 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 	margin: 1em 0 2em;
 }
 
+/* Special case of #content - TinyMCE */
+body#content {
+    margin: 1em;
+}
+
 #content h1 {	
 	margin-top: 0.5em;
 }
@@ -614,6 +619,9 @@ dl.portlet li {
 #content div.newsImageContainer {
 	float: right;
 	margin: 0 1em 0.5em 1em;
+}
+#content div.newsImageContainer a {
+    border-bottom: none;
 }
 #content div.newsImageContainer p.discreet {
 	margin: 0;
