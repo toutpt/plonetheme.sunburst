@@ -648,6 +648,8 @@ table.plain {
 	border-collapse: collapse; 
 }
 
+table.invisible td, 
+table.invisible th,
 table.plain td, 
 table.plain th,
 table.listing td, 
@@ -655,13 +657,17 @@ table.listing th {
 	padding: 0.5em 1em;
 	vertical-align: top;
 }
+table.plain th,
+table.plain td {
+    border: 1px solid #ddd;
+}
 
 table.listing td.listingCheckbox, 
 table.listing th.listingCheckbox {
 	text-align: center;
 }
 
-table.listing thead th {
+table.listing th {
 	text-align: left;
 	color: #666;
 	border: 0.1em solid #e7e7e7;
