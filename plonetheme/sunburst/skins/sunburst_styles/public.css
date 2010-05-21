@@ -604,6 +604,8 @@ dl.portlet li {
 
 #content table {
 	text-align: left;
+	border-collapse: collapse;
+	border-spacing: 0px;
 }
 
 #content .documentDescription,
