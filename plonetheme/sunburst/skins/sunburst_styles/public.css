@@ -424,6 +424,7 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 	line-height: 1.5em;
 	clear: both;
 	font-size: 80%;
+	margin: 1em 0 3em;
 }
 
 #content h1 {	
