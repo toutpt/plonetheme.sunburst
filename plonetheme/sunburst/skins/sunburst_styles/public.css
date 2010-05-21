@@ -825,7 +825,6 @@ dl.error dd {
     padding: 0 0.75em;
     text-decoration: none;
 	border: none;
-	font-weight: bold;
 	margin: 0 ;
 }
 #content-views li.selected a, 
@@ -913,7 +912,6 @@ dl.error dd {
 #contentActionMenus dl.actionMenu.activated dd {
 	background-color: #75ad0a;
 	color: White;
-	font-weight: bold;
 	z-index: 5;
 }
 #contentActionMenus dl.actionMenu a:focus,
@@ -960,6 +958,12 @@ dl.actionMenu div {
     display: block;
     white-space: nowrap;
 	padding: 0 0.25em;
+}
+dl.actionMenu dt {
+	font-weight: normal;    
+}
+span.arrowDownAlternative {
+    font-size: 90%;
 }
 dl.actionMenu.deactivated dt {
 	margin: 0 0.25em;
