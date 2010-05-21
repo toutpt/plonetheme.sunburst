@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: normal;
 	color: Black;
 }
-h1, h2, h3 {
+h1, h2, h4 {
 	letter-spacing: -0.02em;
 	font-weight: normal;
 }
@@ -53,6 +53,7 @@ h2 {
 }
 h3 {
     font-size: 1.25em;
+	font-weight: bold;    
 }
 h4 {
 	font-size: 1.25em; 
@@ -362,7 +363,9 @@ a.managePortletsFallback {
 	-webkit-border-radius: 0.5em;
 	-moz-border-radius: 0.5em;
 }
-
+a.managePortletsFallback {
+    display:inline-block; /* in order for our vertical margins to work on inline element */
+}
 #content a.managePortletsFallback {
 	display: block;
 	border-bottom: none !important;    	
@@ -424,7 +427,7 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 	line-height: 1.5em;
 	clear: both;
 	font-size: 80%;
-	margin: 1em 0 3em;
+	margin: 1em 0 2em;
 }
 
 #content h1 {	
@@ -438,7 +441,7 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 #content h2,
 #content h3,
 #content h4 {
-	margin-top: 0.5em;
+	margin: 1em 0 0.38em;
 	color: #444;	
 }
 
@@ -448,6 +451,7 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 #content dl,
 dl.portlet p,
 dl.portlet {
+    margin-top: 0.625em;
 	margin-bottom: 1em;
 }
 
@@ -525,11 +529,12 @@ dl.portlet li {
 
 #content dt {
 	font-weight: bold;
-	margin-bottom: 0;
+	margin-bottom: 0.625em;
+	margin-top: 1em;
 	margin-right: 0;
 }
 #content dd {
-	margin: 0 0 1em 1em;
+	margin: 0 0 0.625em 1em;
 }
 
 #content pre {
@@ -550,7 +555,6 @@ dl.portlet li {
 #content div.documentByLine {
 	font-size: 85%;
 	display: block;
-	margin-top: -0.5em;
 	color: #666;
 }
 
@@ -592,8 +596,9 @@ dl.portlet li {
 #content #description
 {
 	color: #666;
-	font: bold 1.25em "Helvetica Neue", Arial, FreeSans, sans-serif;
 	margin-left: 0;
+	font-size: 1.25em;
+	margin: 0.5em 0 1.31em;
 }
 
 #content img.tileImage,
