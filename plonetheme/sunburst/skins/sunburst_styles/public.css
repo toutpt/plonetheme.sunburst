@@ -676,6 +676,7 @@ table.listing a {
 	line-height: 2em;
 	border: none;
 	display: inline-block;
+	border-bottom: none !important;
 }
 
 table.listing td.draggable {
