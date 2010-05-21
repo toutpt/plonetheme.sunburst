@@ -1319,12 +1319,19 @@ fieldset,
 /* Emulates the styling from the h1 tag */
 #archetypes-fieldname-title input {
 	font-family: "Helvetica Neue", Arial, FreeSans, sans-serif; 
-	font-weight: bold;
 	line-height: 125%;
 	color: Black;
-	letter-spacing: -0.05em;
-	font-size: 1.625em; /* 26px equiv */
+	letter-spacing: -0.02em;
+	font-size: 2.66em; /* 26px equiv */
 }
+
+/* Emulates styling from the description's view */
+#archetypes-fieldname-description textarea#description {
+    font-family: Arial,FreeSans,sans-serif;
+    color:#666666;
+    font-size:1.25em;
+}
+
 
 div.formControls {
 	margin: 1em 0;
