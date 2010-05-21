@@ -458,6 +458,11 @@ body#content {
 	margin: 1em 0 0.38em;
 	color: #444;	
 }
+#content h2 a,
+#content h3 a,
+#content h4 a {
+    border-bottom: none !important;
+}
 
 
 #content p,
