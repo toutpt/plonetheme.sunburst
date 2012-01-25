@@ -39,6 +39,7 @@ setup(name='plonetheme.sunburst',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'plone.app.modernizr',
       ],
       extras_require={'test': ['collective.testcaselayer']},
       entry_points="""
